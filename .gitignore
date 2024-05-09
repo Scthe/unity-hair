@@ -34,7 +34,18 @@ sysinfo.txt
 
 *.code-workspace
 .vscode
+
+# Unity - not needed
 UIElementsSchema
 
-#########
-# Packages/com.unity.render-pipelines.high-definition-config
+# Big hair asset files: 120+MB
+Assets/Hair/blender-3.5-samples/blender-sample-curly-asset.asset
+Assets/Hair/blender-3.5-samples/blender-sample-curly-asset.asset.meta
+Assets/Hair/blender-3.5-samples/blender-sample-cyberpunk-asset.asset
+Assets/Hair/blender-3.5-samples/blender-sample-cyberpunk-asset.asset.meta
+
+# TMP
+# Assets/Hair/blender-3.5-samples/blender-sample-curly.abc
+# Assets/Hair/blender-3.5-samples/blender-sample-cyberpunk.abc
+# Assets/Hair/SintelHair/HairSystem - sintel.asset
+# Assets/Hair/SintelHair/sintel-hair.abc
