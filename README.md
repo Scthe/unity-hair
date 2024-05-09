@@ -4,13 +4,28 @@ This repository is a supplement to my article: ["Using Unity's strand-based hair
 
 I've had tons of problems integrating this package into my ["AI-Iris-Avatar"](https://github.com/Scthe/ai-iris-avatar). So I've decided to do a more thorough investigation into its content.
 
-`TODO IMAGE base mesh rotation`
-`TODO IMAGE sphere collision`
-`TODO IMAGE wind`
+
+
+https://github.com/Scthe/unity-hair/assets/9325337/26348d5f-6139-4cc6-97f9-41056cbbe916
+
+**Using strand-based hair with animation. The hair system is parented to the mecanim's Head bone. You might also notice the SDF collider to prevent mesh penetration. This is the original Sintel hairstyle. You may arguee that the hair is too bouncy. I disagree!**
+
+
+
+https://github.com/Scthe/unity-hair/assets/9325337/4eb1208b-30e6-4238-bfd2-a781860e8c07
+
+**Using sphere collider to displace hair strands. In practice, it's even more fun than it looks.**
+
+
+
+https://github.com/Scthe/unity-hair/assets/9325337/58a5997e-42aa-4522-b947-73f98335a6bb
+
+**Using wind force to displace hair. Strength, direction, and randomness are adjustable. It even works with colliders. The hairstyle is "cyberpunk" from original Blender 3.5 sample files. Default Unity hair material.**
+
 
 ## Inside the Unity project
 
-`TODO IMAGE from Unity`
+![screen-unity](https://github.com/Scthe/unity-hair/assets/9325337/7a69cb6e-cef1-42fa-b31e-b171400f4854)
 
 
 > WARNING: Asset files for hair can be huge (120+ MB). For blender sample hairstyles, I've only included Alembic files. You have to [create the hair assets](https://www.sctheblog.com/blog/unity-hair/#creating-hair-asset) yourself. Afterward, link the asset files to the appropriate "Hair Instance" components.
@@ -51,7 +66,8 @@ Everything is inside "Scene_SintelHairTest" scene.
 
 ## Inside Blender file
 
-`TODO IMAGE from Blender`
+
+![screen-blender](https://github.com/Scthe/unity-hair/assets/9325337/95584a2a-8ada-4fef-9505-23c15a9e3955)
 
 
 * `Sintel-Unity-Export` - collection for the 3D model. If you select and export everything inside `UnityRig`, you will get the original ".fbx" file.
